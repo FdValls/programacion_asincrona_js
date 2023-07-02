@@ -3,7 +3,7 @@
 console.log("----------------------------------------");
 console.log("Hola Mundo programación asíncrona");
 
-setTimeout(() => console.log("Código asíncrono."), 2000);
-console.log("Código síncrono.");
+setTimeout(() => console.log(`Muestro "Algo"`), 2000);
+console.log("Luego de 2 segundo....");
 
 // más codigo
